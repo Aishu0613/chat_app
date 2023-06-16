@@ -27,7 +27,7 @@ class _TutorialThirdActivityState extends State<TutorialThirdActivity> {
                 width: SizeConfig.screenWidth,
                 child: const Image(
                   image: AssetImage(
-                    "assets/images/tutorial.png",
+                    "assets/images/chat_three.png",
                   ),
                   fit: BoxFit.fill,
                 ),

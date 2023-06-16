@@ -27,7 +27,7 @@ class _TutorialSecondActivityState extends State<TutorialSecondActivity> {
                 width: SizeConfig.screenWidth,
                 child: const Image(
                   image: AssetImage(
-                    "assets/images/tutorial.png",
+                    "assets/images/chat_two.jpeg",
                   ),
                   fit: BoxFit.fill,
                 ),

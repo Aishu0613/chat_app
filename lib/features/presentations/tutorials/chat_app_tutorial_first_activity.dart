@@ -27,7 +27,7 @@ class _TutorialOneActivityState extends State<TutorialOneActivity> {
                 width: SizeConfig.screenWidth,
                 child: const Image(
                   image: AssetImage(
-                    "assets/images/tutorial.png",
+                    "assets/images/chat_one.jpeg",
                   ),
                   fit: BoxFit.fill,
                 ),

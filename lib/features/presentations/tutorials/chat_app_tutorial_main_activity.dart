@@ -5,6 +5,8 @@ import 'package:demo_app/core/chat_app_sizeConfig.dart';
 import 'package:demo_app/core/chat_app_string_en.dart';
 import 'package:demo_app/features/presentations/pre_login_and_signup/chat_app_prelogin_and_signup_activity.dart';
 import 'package:demo_app/features/presentations/tutorials/chat_app_tutorial_first_activity.dart';
+import 'package:demo_app/features/presentations/tutorials/chat_app_tutorial_second_activity.dart';
+import 'package:demo_app/features/presentations/tutorials/chat_app_tutorial_third_activity.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -52,14 +54,14 @@ class _TutorialsParentActivityState extends State<TutorialsParentActivity>  {
       ),
       ConstrainedBox(
         constraints: const BoxConstraints.expand(),
-        child: const TutorialOneActivity(
+        child: const TutorialSecondActivity(
           // key: globalKeyForSearchPetListing,
           // mListener: this,
         ),
       ),
       ConstrainedBox(
         constraints: const BoxConstraints.expand(),
-        child: const TutorialOneActivity(
+        child: const TutorialThirdActivity(
           // key: globalKeyForSearchPetListing,
           // mListener: this,
         ),
